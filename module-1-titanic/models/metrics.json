@@ -5,7 +5,7 @@
     "recall": 0.8059,
     "f1": 0.7959,
     "roc_auc": 0.8841,
-    "training_time_sec": 0.0263
+    "training_time_sec": 0.0177
   },
   "decision_tree": {
     "accuracy": 0.7999,
@@ -13,7 +13,7 @@
     "recall": 0.8162,
     "f1": 0.8043,
     "roc_auc": 0.8725,
-    "training_time_sec": 0.0244
+    "training_time_sec": 0.0189
   },
   "random_forest": {
     "accuracy": 0.7993,
@@ -21,6 +21,6 @@
     "recall": 0.8002,
     "f1": 0.8007,
     "roc_auc": 0.8915,
-    "training_time_sec": 0.8355
+    "training_time_sec": 0.3214
   }
 }
