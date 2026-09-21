@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# PyCharm / IDE settings
+.idea/
+.vscode/
+
+# Ignore large CSV files (> 10 MB), but keep dataset files
+*.csv
+!module-1-titanic/data/train.csv
+!module-1-titanic/data/test.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,26 +1,26 @@
 {
-  "Logistic Regression": {
-    "Accuracy": 0.7918,
-    "Precision": 0.7862,
-    "Recall": 0.8059,
-    "F1-score": 0.7959,
-    "ROC-AUC": 0.8841,
+  "logistic_regression": {
+    "accuracy": 0.7918,
+    "precision": 0.7862,
+    "recall": 0.8059,
+    "f1": 0.7959,
+    "roc_auc": 0.8841,
     "training_time_sec": 0.0263
   },
-  "Decision Tree": {
-    "Accuracy": 0.7999,
-    "Precision": 0.7927,
-    "Recall": 0.8162,
-    "F1-score": 0.8043,
-    "ROC-AUC": 0.8725,
+  "decision_tree": {
+    "accuracy": 0.7999,
+    "precision": 0.7927,
+    "recall": 0.8162,
+    "f1": 0.8043,
+    "roc_auc": 0.8725,
     "training_time_sec": 0.0244
   },
-  "Random Forest (Бонус)": {
-    "Accuracy": 0.7993,
-    "Precision": 0.8011,
-    "Recall": 0.8002,
-    "F1-score": 0.8007,
-    "ROC-AUC": 0.8915,
+  "random_forest": {
+    "accuracy": 0.7993,
+    "precision": 0.8011,
+    "recall": 0.8002,
+    "f1": 0.8007,
+    "roc_auc": 0.8915,
     "training_time_sec": 0.8355
   }
 }
