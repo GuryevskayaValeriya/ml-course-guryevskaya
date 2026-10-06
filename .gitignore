@@ -24,6 +24,9 @@ ENV/
 *.csv
 !module-1-titanic/data/train.csv
 !module-1-titanic/data/test.csv
+!module-2-house-prices/data/train.csv
+!module-2-house-prices/data/test.csv
+!module-2-house-prices/data/submission.csv
 
 # OS files
 .DS_Store
