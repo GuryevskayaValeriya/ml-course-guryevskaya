@@ -5,7 +5,7 @@
     "Recall": 0.746,
     "F1": 0.6242,
     "ROC-AUC": 0.8388,
-    "Time": 0.321
+    "Time": 0.314
   },
   "xgboost": {
     "Accuracy": 0.7665,
@@ -13,7 +13,7 @@
     "Recall": 0.7032,
     "F1": 0.6152,
     "ROC-AUC": 0.8301,
-    "Time": 0.304
+    "Time": 0.28
   },
   "lightgbm": {
     "Accuracy": 0.7601,
@@ -21,7 +21,7 @@
     "Recall": 0.746,
     "F1": 0.6228,
     "ROC-AUC": 0.8384,
-    "Time": 0.121
+    "Time": 0.119
   },
   "catboost": {
     "Accuracy": 0.7488,
@@ -29,7 +29,7 @@
     "Recall": 0.7433,
     "F1": 0.611,
     "ROC-AUC": 0.8409,
-    "Time": 0.753
+    "Time": 0.721
   },
   "stacking_bonus": {
     "Accuracy": 0.8006,
@@ -37,21 +37,21 @@
     "Recall": 0.5749,
     "F1": 0.6048,
     "ROC-AUC": 0.8467,
-    "Time": 1.855
+    "Time": 1.784
   },
   "best_model": "LightGBM (Optuna)",
-  "best_roc_auc_cv": 0.849,
-  "best_roc_auc_test": 0.8462,
+  "best_roc_auc_cv": 0.8493,
+  "best_roc_auc_test": 0.8483,
   "best_params": {
-    "n_estimators": 500,
-    "num_leaves": 65,
+    "n_estimators": 350,
+    "num_leaves": 90,
     "max_depth": 3,
-    "learning_rate": 0.011892183582914143,
-    "subsample": 0.6940642495076984,
-    "colsample_bytree": 0.8228056865054258,
-    "min_child_samples": 9,
-    "reg_alpha": 2.9369865992463766,
-    "reg_lambda": 2.545695800737873
+    "learning_rate": 0.022943298923083385,
+    "subsample": 0.6236369825139823,
+    "colsample_bytree": 0.5164731483152039,
+    "min_child_samples": 35,
+    "reg_alpha": 0.002886956542416407,
+    "reg_lambda": 7.328751913955659
   },
   "optuna_trials": 30
 }
