@@ -20,6 +20,9 @@ ENV/
 .idea/
 .vscode/
 
+# CatBoost info
+catboost_info/
+
 # Ignore large CSV files (> 10 MB), but keep dataset files
 *.csv
 !module-1-titanic/data/train.csv
@@ -27,6 +30,7 @@ ENV/
 !module-2-house-prices/data/train.csv
 !module-2-house-prices/data/test.csv
 !module-2-house-prices/data/submission.csv
+!module-3-churn/data/telco_churn.csv
 
 # OS files
 .DS_Store
