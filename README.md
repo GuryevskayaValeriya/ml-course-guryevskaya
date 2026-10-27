@@ -12,7 +12,7 @@
 | 1 | module-1-titanic | EDA + бинарная классификация | ✅ Готово | [Открыть](./module-1-titanic/) | 
 | 2 | module-2-house-prices | Предобработка + регрессия | ✅ Готово | [Открыть](./module-2-house-prices/) | 
 | 3 | module-3-churn | Ансамблевые методы | ✅ Готово | [Открыть](./module-3-churn/) | 
-| 4 | module-4-features | Инженерия признаков | ⏳ Ожидается | — | 
+| 4 | module-4-features | Инженерия признаков | ✅ Готово | [Открыть](./module-4-features/) | 
 | 5 | module-5-timeseries | Временные ряды | ⏳ Ожидается | — | 
 | 6 | module-6-neural | Нейросетевые архитектуры | ⏳ Ожидается | — | 
 | 7 | module-7-mlops | MLOps и деплой | ⏳ Ожидается | — | 
@@ -23,4 +23,5 @@
 |--------|---------------|------------------|------------| 
 | 1 | Random Forest | ROC-AUC = 0.8915 | 2026-09-22 | 
 | 2 | Stacking (Lasso/Ridge/XGB) | R² = 0.9151 (RMSE = $19,467) | 2026-10-06 | 
-| 3 | LightGBM (Optuna) | ROC-AUC = 0.8465 (Stacking Acc = 0.8006) | 2026-10-20 |
+| 3 | LightGBM (Optuna) | ROC-AUC = 0.8465 (Stacking Acc = 0.8006) | 2026-10-20 | 
+| 4 | LightGBM (Optuna) | ROC-AUC = 0.9323 (Recall = 0.8246) | 2026-10-27 |

@@ -31,6 +31,7 @@ catboost_info/
 !module-2-house-prices/data/test.csv
 !module-2-house-prices/data/submission.csv
 !module-3-churn/data/telco_churn.csv
+!module-4-features/data/online_shoppers_intention.csv
 
 # OS files
 .DS_Store

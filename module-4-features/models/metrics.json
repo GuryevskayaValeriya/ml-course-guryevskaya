@@ -1,0 +1,48 @@
+{
+  "random_forest": {
+    "Accuracy": 0.8661800486618005,
+    "Precision": 0.5469314079422383,
+    "Recall": 0.7931937172774869,
+    "F1-Score": 0.6474358974358975,
+    "ROC-AUC": 0.9294613158344304,
+    "Train Time (s)": 0.37
+  },
+  "xgboost": {
+    "Accuracy": 0.8795620437956204,
+    "Precision": 0.5906183368869936,
+    "Recall": 0.725130890052356,
+    "F1-Score": 0.6509988249118684,
+    "ROC-AUC": 0.9224432474801781,
+    "Train Time (s)": 0.37
+  },
+  "lightgbm_baseline": {
+    "Accuracy": 0.8759124087591241,
+    "Precision": 0.5725190839694656,
+    "Recall": 0.7853403141361257,
+    "F1-Score": 0.6622516556291391,
+    "ROC-AUC": 0.927698947855011,
+    "Train Time (s)": 0.148
+  },
+  "catboost": {
+    "Accuracy": 0.875506893755069,
+    "Precision": 0.5698324022346368,
+    "Recall": 0.8010471204188482,
+    "F1-Score": 0.6659412404787813,
+    "ROC-AUC": 0.9269440061902705,
+    "Train Time (s)": 0.872
+  },
+  "best_model": "LightGBM (Optuna Tuned)",
+  "best_roc_auc_cv": 0.9352148175962489,
+  "best_roc_auc_test": 0.9322537206941947,
+  "best_params": {
+    "n_estimators": 250,
+    "num_leaves": 19,
+    "max_depth": 10,
+    "learning_rate": 0.02201417610444853,
+    "subsample": 0.9077704495399258,
+    "colsample_bytree": 0.6343040279028738,
+    "min_child_samples": 31,
+    "reg_alpha": 1.4003644858293558,
+    "reg_lambda": 0.009679031082636682
+  }
+}
